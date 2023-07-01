@@ -59,7 +59,7 @@ const CustodianForm = (props: {
       try {
         const res = await axios({
           method: "Post",
-          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${FormId}`,
+          url: `/api/forms/${FormId}`,
           data: { data, title: "CustodianDetails" },
         });
         console.log(res, data);

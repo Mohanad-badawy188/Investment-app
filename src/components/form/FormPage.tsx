@@ -35,7 +35,7 @@ function FormPage() {
       try {
         const res = await axios({
           method: "GET",
-          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${FormId}`,
+          url: `/api/forms/${FormId}`,
         });
         setData(res.data);
       } catch (err) {

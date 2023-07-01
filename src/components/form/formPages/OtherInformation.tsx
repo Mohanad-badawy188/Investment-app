@@ -44,7 +44,7 @@ const OtherInformation = (props: {
       try {
         const res = await axios({
           method: "Post",
-          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${FormId}`,
+          url: `/forms/${FormId}`,
           data: { data, title: "OtherInfo", formId: props.formId },
         });
         console.log(res, data);

@@ -67,7 +67,7 @@ const ApprovedPage = (props: {
       try {
         const res = await axios({
           method: "Delete",
-          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${props.id}`,
+          url: `/forms/${props.id}`,
         });
         console.log("deleted successfully");
       } catch (err) {

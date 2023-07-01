@@ -66,7 +66,7 @@ const LandingPage = () => {
       try {
         const res = await axios({
           method: "GET",
-          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${formsStatus}`,
+          url: `/api/forms/${formsStatus}`,
         });
 
         setForms(
