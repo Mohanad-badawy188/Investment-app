@@ -27,7 +27,7 @@ const PendingPage = (props: {
           method: "Delete",
           url: `/api/forms/${props.id}`,
         });
-        console.log("deleted successfully");
+        console.log(res.data);
       } catch (err) {
         console.log(err);
       }
