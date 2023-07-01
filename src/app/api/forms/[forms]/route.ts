@@ -48,7 +48,14 @@ export async function GET(
         return +new Date(b.generatedOn) - +new Date(a.generatedOn);
       })
       .splice(0, 6);
-    return NextResponse.json(data);
+    return NextResponse.json(data, {
+      status: 200,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      },
+    });
   } else if (params.forms === "Pending") {
     const data = forms
       ?.filter(
@@ -58,13 +65,34 @@ export async function GET(
         return +new Date(b.generatedOn) - +new Date(a.generatedOn);
       })
       .splice(0, 6);
-    return NextResponse.json(data);
+    return NextResponse.json(data, {
+      status: 200,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      },
+    });
   } else if (params.forms) {
     const data = forms?.filter((item: Database) => item.id === params.forms)[0];
     if (data) {
-      return NextResponse.json(data);
+      return NextResponse.json(data, {
+        status: 200,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type, Authorization",
+        },
+      });
     }
-    return NextResponse.json("New Form");
+    return NextResponse.json("New Form", {
+      status: 200,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      },
+    });
   }
 }
 
