@@ -44,7 +44,7 @@ const OtherInformation = (props: {
       try {
         const res = await axios({
           method: "Post",
-          url: `http://localhost:3000/api/forms/${FormId}`,
+          url: `https://investment-app-g6kj.vercel.app/api/forms/${FormId}`,
           data: { data, title: "OtherInfo", formId: props.formId },
         });
         console.log(res, data);

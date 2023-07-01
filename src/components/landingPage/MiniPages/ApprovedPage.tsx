@@ -67,7 +67,7 @@ const ApprovedPage = (props: {
       try {
         const res = await axios({
           method: "Delete",
-          url: `http://localhost:3000/api/forms/${props.id}`,
+          url: `https://investment-app-g6kj.vercel.app/api/forms/${props.id}`,
         });
         console.log("deleted successfully");
       } catch (err) {

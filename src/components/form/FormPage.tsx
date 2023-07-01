@@ -35,7 +35,7 @@ function FormPage() {
       try {
         const res = await axios({
           method: "GET",
-          url: `http://localhost:3000/api/forms/${FormId}`,
+          url: `https://investment-app-g6kj.vercel.app/api/forms/${FormId}`,
         });
         setData(res.data);
       } catch (err) {
