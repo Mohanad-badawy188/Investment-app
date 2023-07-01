@@ -25,7 +25,7 @@ const PendingPage = (props: {
       try {
         const res = await axios({
           method: "Delete",
-          url: `https://investment-app-g6kj.vercel.app/api/forms/${props.id}`,
+          url: `https://precious-dragon-e4869a.netlify.app/api/forms/${props.id}`,
         });
         console.log("deleted successfully");
       } catch (err) {
