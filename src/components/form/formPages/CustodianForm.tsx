@@ -31,7 +31,7 @@ const InputsContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
 `;
-const SingleInputContainer = styled.div`
+export const SingleInputContainer = styled.div`
   margin-bottom: 30px;
   position: relative;
 `;

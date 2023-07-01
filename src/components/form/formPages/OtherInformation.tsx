@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import { FormContainer, FormTitle } from "./CustodianForm";
+import {
+  FormContainer,
+  FormTitle,
+  SingleInputContainer,
+} from "./CustodianForm";
 import styled from "styled-components";
 import RadioForm from "./RadioForm";
 import { Btn, ButtonsContainer, FormInput } from "@/components/common/page";
@@ -7,6 +11,7 @@ import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
 import axios from "axios";
 import { usePathname } from "next/navigation";
+import { ErrorMsg } from "./Certification";
 type Inputs = {
   Certificates: string;
   ProfitsOrAny0therIncome: string;
@@ -40,11 +45,12 @@ const OtherInformation = (props: {
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (data) => {
+    console.log(props);
     const SendData = async () => {
       try {
         const res = await axios({
           method: "Post",
-          url: `/forms/${FormId}`,
+          url: `/api/forms/${FormId}`,
           data: { data, title: "OtherInfo", formId: props.formId },
         });
         console.log(res, data);
@@ -71,24 +77,39 @@ const OtherInformation = (props: {
       <FormTitle>Other Information</FormTitle>
       <SubHeader>Where do you want to send the following:</SubHeader>
       <SpaceAround>
-        <RadioForm
-          Click={handleClick}
-          {...register("Certificates")}
-          ref={null}
-          title={"Certificates"}
-        />
-        <RadioForm
-          Click={handleClick}
-          {...register("ProfitsOrAny0therIncome")}
-          title={"Profits or any other Income"}
-          ref={null}
-        />
-        <RadioForm
-          Click={handleClick}
-          {...register("SalesOutcomes")}
-          title={"Sales Outcomes"}
-          ref={null}
-        />
+        <SingleInputContainer>
+          <RadioForm
+            Click={handleClick}
+            {...register("Certificates", { required: true })}
+            ref={null}
+            title={"Certificates"}
+          />
+          {errors.Certificates && (
+            <ErrorMsg>please select your Certificates</ErrorMsg>
+          )}
+        </SingleInputContainer>
+        <SingleInputContainer>
+          <RadioForm
+            Click={handleClick}
+            {...register("ProfitsOrAny0therIncome", { required: true })}
+            title={"Profits or any other Income"}
+            ref={null}
+          />
+                  {errors.ProfitsOrAny0therIncome && (
+            <ErrorMsg>please select your Income</ErrorMsg>
+          )}
+        </SingleInputContainer>
+        <SingleInputContainer>
+          <RadioForm
+            Click={handleClick}
+            {...register("SalesOutcomes", { required: true })}
+            title={"Sales Outcomes"}
+            ref={null}
+          />
+          {errors.SalesOutcomes && (
+            <ErrorMsg>please select your Sales Outcomes</ErrorMsg>
+          )}
+        </SingleInputContainer>
       </SpaceAround>
       <FormInput placeholder="Other Entity" {...register("OtherEntityInput")} />
       <ButtonsContainer>

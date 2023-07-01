@@ -61,6 +61,7 @@ const ApprovedPage = (props: {
   title: string;
   generatedOn: string;
   index: number;
+  user:string
 }) => {
   const handleClick = () => {
     const SendData = async () => {
@@ -80,7 +81,7 @@ const ApprovedPage = (props: {
     <FormRow key={props.id} header={0}>
       <FormRowItemsContainer>
         <FormRowItem flex={"1"}>{props.index + 1}</FormRowItem>
-        <FormRowItem flex={"2"}>{props.title}</FormRowItem>
+        <FormRowItem flex={"2"}>{props.user}</FormRowItem>
         <FormRowItem flex={"1"}>{props.generatedOn}</FormRowItem>
         <FormRowItem flex={"1"}>
           <Actions>

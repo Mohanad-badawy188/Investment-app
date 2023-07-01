@@ -59,6 +59,8 @@ const LandingPage = () => {
     status: string;
     formTitle: string;
     generatedOn: string;
+    createdAt: Date;
+    user: { Name: string };
   }> | null>(null);
 
   useEffect(() => {
@@ -71,7 +73,7 @@ const LandingPage = () => {
 
         setForms(
           res.data.sort(function (a: any, b: any) {
-            return +new Date(b.generatedOn) - +new Date(a.generatedOn);
+            return +new Date(b.createdAt) - +new Date(a.createdAt);
           })
         );
       } catch (err) {
@@ -126,6 +128,8 @@ const LandingPage = () => {
                   title={item.formTitle}
                   generatedOn={item.generatedOn}
                   index={index}
+                  user={item.user.Name}
+
                 />
               ))
           : forms
@@ -137,6 +141,7 @@ const LandingPage = () => {
                   title={item.formTitle}
                   generatedOn={item.generatedOn}
                   status={item.status}
+                  user={item.user.Name}
                   index={index}
                 />
               ))}
