@@ -28,14 +28,15 @@ const ForCors ={
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
   },
 }
+const FilePath = `${process.cwd()}/tmp/Database.json`
 export async function GET(
   request: Request,
   { params }: { params: { forms: string } }
 ) {
   //read the json file to get the data
   const DB = await fs.readFileSync(
-    `../[forms]/tmp/Database.json`,
-  "utf8",
+    FilePath,
+    "utf8",
     (err: Error, data: Database) => {
       if (err) {
         console.error(err);
@@ -81,8 +82,7 @@ export async function POST(
   { params }: { params: { forms: string } }
 ) {
   const DB = await fs.readFileSync(
-    `../[forms]/tmp/Database.json`,
-    "utf8",
+    FilePath,    "utf8",
     (err: Error, data: any) => {
       if (err) {
         console.error(err);
@@ -102,8 +102,7 @@ export async function POST(
     if (FormItem) {
       FormItem.user = data.data;
       fs.writeFileSync(
-        `../[forms]/tmp/Database.json`,
-        JSON.stringify(DataObj),
+        FilePath,        JSON.stringify(DataObj),
         (err: Error) => {
           if (err) {
             console.error(err);
@@ -133,8 +132,7 @@ export async function POST(
       formID = Form.id;
       DataObj.push(Form);
       fs.writeFileSync(
-        `../[forms]/tmp/Database.json`,
-        JSON.stringify(DataObj),
+        FilePath,        JSON.stringify(DataObj),
         (err: Error) => {
           if (err) {
             console.error(err);
@@ -150,8 +148,7 @@ export async function POST(
     const FormItem = DataObj.find((item: Database) => item.id === data.formId);
     FormItem.otherInfo = data.data;
     fs.writeFileSync(
-      `../[forms]/tmp/Database.json`,
-      JSON.stringify(DataObj),
+      FilePath,      JSON.stringify(DataObj),
       (err: Error) => {
         if (err) {
           console.error(err);
@@ -165,8 +162,7 @@ export async function POST(
     const FormItem = DataObj.find((item: Database) => item.id === params.forms);
     FormItem.otherInfo = data.data;
     fs.writeFileSync(
-      `../[forms]/tmp/Database.json`,
-      JSON.stringify(DataObj),
+      FilePath,      JSON.stringify(DataObj),
       (err: Error) => {
         if (err) {
           console.error(err);
@@ -182,8 +178,7 @@ export async function POST(
     const FormItem = DataObj.find((item: Database) => item.id === data.formId);
     FormItem.certify = data.data.certifyForm;
     fs.writeFileSync(
-      `../[forms]/tmp/Database.json`,
-      JSON.stringify(DataObj),
+      FilePath,      JSON.stringify(DataObj),
       (err: Error) => {
         if (err) {
           console.error(err);
@@ -199,8 +194,7 @@ export async function POST(
 
     FormItem.certify = data.data.certifyForm;
     fs.writeFileSync(
-      `../[forms]/tmp/Database.json`,
-      JSON.stringify(DataObj),
+      FilePath,      JSON.stringify(DataObj),
       (err: Error) => {
         if (err) {
           console.error(err);
@@ -217,8 +211,7 @@ export async function DELETE(
   { params }: { params: { forms: string } }
 ) {
   const DB = await fs.readFileSync(
-    `../[forms]/tmp/Database.json`,
-    "utf8",
+    FilePath,    "utf8",
     (err: Error, data: any) => {
       if (err) {
         console.error(err);
@@ -232,8 +225,7 @@ export async function DELETE(
   const forms = JSON.parse(DB);
   const data = forms?.filter((item: Database) => item.id !== params.forms);
   fs.writeFileSync(
-    `../[forms]/tmp/Database.json`,
-    JSON.stringify(data),
+    FilePath,    JSON.stringify(data),
     (err: Error) => {
       if (err) {
         console.error(err);
