@@ -1,1 +1,353 @@
-[{"id":"1","formTitle":"Know Your Client Form","generatedOn":"Fri jun 01 2023","status":"Approved","user":{"Name":"g","AddressOfCorrespondence":"gf","AccountName":"g","AccountNumber":"4"},"otherInfo":{"Certificates":"Client","ProfitsOrAny0therIncome":"Client","SalesOutcomes":"Client","OtherEntityInput":""},"certify":true},{"id":"2","formTitle":"Foreign Account Tax Compliance Form","generatedOn":"Fri jun 01 2023","status":"Approved","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"3","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Approved","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"4","formTitle":"AML Form","generatedOn":"Sat Jul 01 2023","status":"Approved","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"6","formTitle":"Foreign Account Tax Compliance Form","generatedOn":"Sat Jul 01 2023","status":"Approved","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":false},{"id":"7","formTitle":"Custodian Form","generatedOn":"Fri jun 01 2023","status":"Submitted","user":{"Name":"mohand","AddressOfCorrespondence":"egypt","AccountName":"mohanad","AccountNumber":"123"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"8","formTitle":"AML Form","generatedOn":"Sat Jul 01 2023","status":"Under Review","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"9","formTitle":"Foreign Account Tax Compliance Form","generatedOn":"Fri jun 01 2023","status":"Pending","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":false},{"id":"10","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Approved","user":{"Name":"","AddressOfCorrespondence":"","AccountName":"","AccountNumber":0},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"be34ce65-0538-44e8-86c5-a3d1e0783abf","formTitle":"Custodian Form","generatedOn":"Fri jun 01 2023","status":"Pending","user":{"Name":"test","AddressOfCorrespondence":"F","AccountName":"F","AccountNumber":"2"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"197d9037-0b86-40c6-be65-01f0ca2502c0","formTitle":"Custodian Form","generatedOn":"Sat Jul 15 2023","status":"Pending","user":{"Name":"TEST112","AddressOfCorrespondence":"TESEWW","AccountName":"WEQWQE","AccountNumber":"21321343442"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"22e4bd5e-caaf-451b-b258-82be887ce3ad","formTitle":"Custodian Form","generatedOn":"Sat Mar 01 2023","status":"Pending","user":{"Name":"test","AddressOfCorrespondence":"123","AccountName":"123","AccountNumber":"234"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"a00d264d-6476-43bc-b204-007e7a36bd27","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"test","AddressOfCorrespondence":"test","AccountName":"test","AccountNumber":"123"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"1de101a4-709b-4ff1-868e-5efd08d7b42d","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"wer","AddressOfCorrespondence":"ert","AccountName":"tery","AccountNumber":"544"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"36bc3669-5dd4-4723-a5b1-06f7bd2b743d","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2022","status":"Pending","user":{"Name":"567","AddressOfCorrespondence":"675","AccountName":"675","AccountNumber":"657"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":true},{"id":"b0e7df61-7184-4147-aba3-8a5b976b6de6","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"test","AddressOfCorrespondence":"tswqed","AccountName":"2314","AccountNumber":"3434"},"otherInfo":{"OtherEntityInput":""},"certify":true},{"id":"e56d3511-ea7e-4fd6-a7b7-8ab1974fa413","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"tessaaa````````12","AddressOfCorrespondence":"123","AccountName":"3214","AccountNumber":"213"},"otherInfo":{"certifyForm":true},"certify":true},{"id":"8f7a2158-ead4-4864-a4cd-640c6a447547","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"last","AddressOfCorrespondence":"last","AccountName":"last","AccountNumber":"123"},"otherInfo":{"Certificates":"Other Entity","ProfitsOrAny0therIncome":"Other Entity","SalesOutcomes":"Other Entity","OtherEntityInput":""},"certify":true},{"id":"126505ca-dea0-4316-95d7-0f9fcf4e6e17","formTitle":"Custodian Form","generatedOn":"Sat Jul 01 2023","status":"Pending","user":{"Name":"g","AddressOfCorrespondence":"m","AccountName":"m","AccountNumber":"8"},"otherInfo":{"Certificates":"","ProfitsOrAnyOtherIncome":"","SalesOutcomes":"","OtherEntity":""},"certify":false}]
+[
+  {
+    "id": "1",
+    "formTitle": "Know Your Client Form",
+    "generatedOn": "Fri jun 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "g",
+      "AddressOfCorrespondence": "gf",
+      "AccountName": "g",
+      "AccountNumber": "4"
+    },
+    "otherInfo": {
+      "Certificates": "Client",
+      "ProfitsOrAny0therIncome": "Client",
+      "SalesOutcomes": "Client",
+      "OtherEntityInput": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "2",
+    "formTitle": "Foreign Account Tax Compliance Form",
+    "generatedOn": "Fri jun 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "3",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "4",
+    "formTitle": "AML Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "6",
+    "formTitle": "Foreign Account Tax Compliance Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": false
+  },
+  {
+    "id": "7",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Fri jun 01 2023",
+    "status": "Submitted",
+    "user": {
+      "Name": "mohand",
+      "AddressOfCorrespondence": "egypt",
+      "AccountName": "mohanad",
+      "AccountNumber": "123"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "8",
+    "formTitle": "AML Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Under Review",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "9",
+    "formTitle": "Foreign Account Tax Compliance Form",
+    "generatedOn": "Fri jun 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": false
+  },
+  {
+    "id": "10",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Approved",
+    "user": {
+      "Name": "",
+      "AddressOfCorrespondence": "",
+      "AccountName": "",
+      "AccountNumber": 0
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "be34ce65-0538-44e8-86c5-a3d1e0783abf",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Fri jun 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "test",
+      "AddressOfCorrespondence": "F",
+      "AccountName": "F",
+      "AccountNumber": "2"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "197d9037-0b86-40c6-be65-01f0ca2502c0",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 15 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "TEST112",
+      "AddressOfCorrespondence": "TESEWW",
+      "AccountName": "WEQWQE",
+      "AccountNumber": "21321343442"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "22e4bd5e-caaf-451b-b258-82be887ce3ad",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Mar 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "test",
+      "AddressOfCorrespondence": "123",
+      "AccountName": "123",
+      "AccountNumber": "234"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "a00d264d-6476-43bc-b204-007e7a36bd27",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "test",
+      "AddressOfCorrespondence": "test",
+      "AccountName": "test",
+      "AccountNumber": "123"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "1de101a4-709b-4ff1-868e-5efd08d7b42d",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "wer",
+      "AddressOfCorrespondence": "ert",
+      "AccountName": "tery",
+      "AccountNumber": "544"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "36bc3669-5dd4-4723-a5b1-06f7bd2b743d",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2022",
+    "status": "Pending",
+    "user": {
+      "Name": "567",
+      "AddressOfCorrespondence": "675",
+      "AccountName": "675",
+      "AccountNumber": "657"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "b0e7df61-7184-4147-aba3-8a5b976b6de6",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "test",
+      "AddressOfCorrespondence": "tswqed",
+      "AccountName": "2314",
+      "AccountNumber": "3434"
+    },
+    "otherInfo": { "OtherEntityInput": "" },
+    "certify": true
+  },
+  {
+    "id": "e56d3511-ea7e-4fd6-a7b7-8ab1974fa413",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "tessaaa````````12",
+      "AddressOfCorrespondence": "123",
+      "AccountName": "3214",
+      "AccountNumber": "213"
+    },
+    "otherInfo": { "certifyForm": true },
+    "certify": true
+  },
+  {
+    "id": "8f7a2158-ead4-4864-a4cd-640c6a447547",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "last",
+      "AddressOfCorrespondence": "last",
+      "AccountName": "last",
+      "AccountNumber": "123"
+    },
+    "otherInfo": {
+      "Certificates": "Other Entity",
+      "ProfitsOrAny0therIncome": "Other Entity",
+      "SalesOutcomes": "Other Entity",
+      "OtherEntityInput": ""
+    },
+    "certify": true
+  },
+  {
+    "id": "126505ca-dea0-4316-95d7-0f9fcf4e6e17",
+    "formTitle": "Custodian Form",
+    "generatedOn": "Sat Jul 01 2023",
+    "status": "Pending",
+    "user": {
+      "Name": "g",
+      "AddressOfCorrespondence": "m",
+      "AccountName": "m",
+      "AccountNumber": "8"
+    },
+    "otherInfo": {
+      "Certificates": "",
+      "ProfitsOrAnyOtherIncome": "",
+      "SalesOutcomes": "",
+      "OtherEntity": ""
+    },
+    "certify": false
+  }
+]
