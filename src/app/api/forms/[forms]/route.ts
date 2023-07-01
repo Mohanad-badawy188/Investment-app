@@ -102,7 +102,7 @@ export async function POST(
     if (FormItem) {
       FormItem.user = data.data;
       fs.writeFileSync(
-        `${process.cwd()}/tmp/Database.json`,
+        `${process.cwd()}/tmp`,
         JSON.stringify(DataObj),
         (err: Error) => {
           if (err) {
