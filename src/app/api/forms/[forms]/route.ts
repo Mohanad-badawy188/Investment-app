@@ -20,6 +20,14 @@ type Database = {
   };
   certify: boolean;
 };
+const ForCors ={
+  status: 200,
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization",
+  },
+}
 export async function GET(
   request: Request,
   { params }: { params: { forms: string } }
@@ -48,14 +56,7 @@ export async function GET(
         return +new Date(b.generatedOn) - +new Date(a.generatedOn);
       })
       .splice(0, 6);
-    return NextResponse.json(data, {
-      status: 200,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization",
-      },
-    });
+    return NextResponse.json(data,ForCors );
   } else if (params.forms === "Pending") {
     const data = forms
       ?.filter(
@@ -65,34 +66,13 @@ export async function GET(
         return +new Date(b.generatedOn) - +new Date(a.generatedOn);
       })
       .splice(0, 6);
-    return NextResponse.json(data, {
-      status: 200,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization",
-      },
-    });
+    return NextResponse.json(data, ForCors);
   } else if (params.forms) {
     const data = forms?.filter((item: Database) => item.id === params.forms)[0];
     if (data) {
-      return NextResponse.json(data, {
-        status: 200,
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-          "Access-Control-Allow-Headers": "Content-Type, Authorization",
-        },
-      });
+      return NextResponse.json(data,ForCors);
     }
-    return NextResponse.json("New Form", {
-      status: 200,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization",
-      },
-    });
+    return NextResponse.json("New Form", ForCors);
   }
 }
 
@@ -163,7 +143,7 @@ export async function POST(
       );
     }
 
-    return NextResponse.json(formID);
+    return NextResponse.json(formID,ForCors);
   }
   if (params.forms === "newForm" && data.title === "OtherInfo") {
     console.log(data);
@@ -180,7 +160,7 @@ export async function POST(
       }
     );
 
-    return NextResponse.json(data);
+    return NextResponse.json(data,ForCors);
   } else if (params.forms && data.title === "OtherInfo") {
     const FormItem = DataObj.find((item: Database) => item.id === params.forms);
     FormItem.otherInfo = data.data;
@@ -195,7 +175,7 @@ export async function POST(
       }
     );
 
-    return NextResponse.json(data);
+    return NextResponse.json(data,ForCors);
   }
   if (params.forms === "newForm" && data.title === "Certify") {
     console.log(data);
@@ -212,7 +192,7 @@ export async function POST(
       }
     );
 
-    return NextResponse.json(data);
+    return NextResponse.json(data,ForCors);
   }
   if (params.forms && data.title === "Certify") {
     const FormItem = DataObj.find((item: Database) => item.id === params.forms);
@@ -229,7 +209,7 @@ export async function POST(
       }
     );
 
-    return NextResponse.json(data);
+    return NextResponse.json(data,ForCors);
   }
 }
 export async function DELETE(
@@ -262,5 +242,5 @@ export async function DELETE(
     }
   );
 
-  return NextResponse.json(data);
+  return NextResponse.json(data,ForCors);
 }
